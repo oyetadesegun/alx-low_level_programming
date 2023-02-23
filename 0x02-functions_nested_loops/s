@@ -1,6 +1,4 @@
 #!/bin/bash
-echo "What is the Commit Message?"
-read fileName
 git add .
-git commit -m $fileName
+git commit -m "nexted loop"
 git push
